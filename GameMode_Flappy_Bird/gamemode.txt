@@ -1,0 +1,74 @@
+//add-ons to load
+ADDON Brick_Large_Cubes
+ADDON Brick_ModTer_BasicPack
+
+ADDON Emote_Alarm
+ADDON Emote_Confusion
+ADDON Emote_Hate
+ADDON Emote_Love
+
+ADDON Event_2DCamera
+
+ADDON GameMode_Flappy_Bird
+
+ADDON Player_No_Jet
+
+ADDON Print_Letters_Default
+ADDON Print_ModTer_Default
+
+ADDON Weapon_Gun
+
+//environment
+$EnvGuiServer::SimpleMode 0
+$EnvGuiServer::SkyFile Add-Ons/Sky_Skylands/Skylands.dml
+$EnvGuiServer::WaterFile Add-Ons/Water_Lava/lava.water
+$EnvGuiServer::GroundFile Add-Ons/Ground_Plate/plate.ground
+
+
+$EnvGuiServer::GroundColor 0 0 0 0
+$EnvGuiServer::WaterColor 0 0 0 0
+$EnvGuiServer::UnderWaterColor 0 0 0 0
+
+
+//minigame rules
+$MiniGame::Enabled 1
+$MiniGame::GameColor 0
+$MiniGame::InviteOnly 0
+$MiniGame::IncludeAllPlayersBricks 0
+$MiniGame::PlayersUseOwnBricks 0
+
+$MiniGame::Points_BreakBrick 0
+$MiniGame::Points_PlantBrick 0
+$MiniGame::Points_KillPlayer 0
+$MiniGame::Points_KillSelf	0
+$MiniGame::Points_Die 0
+   
+$MiniGame::RespawnTime 1
+$MiniGame::VehicleRespawnTime 0
+$MiniGame::BrickRespawnTime 0
+
+$MiniGame::UseSpawnBricks 1
+$MiniGame::FallingDamage 0
+$MiniGame::WeaponDamage 1
+$MiniGame::SelfDamage 0
+$MiniGame::VehicleDamage 0
+$MiniGame::BrickDamage 0
+$MiniGame::EnableWand 0
+$MiniGame::EnableBuilding 0
+$MiniGame::EnablePainting 1
+
+$MiniGame::BotDamage 0
+$MiniGame::BotRespawnTime 0
+$MiniGame::Points_KillBot 0
+
+$MiniGame::PlayerDataBlockName Flappy Player
+
+$MiniGame::StartEquipName0 0
+$MiniGame::StartEquipName1 0 
+$MiniGame::StartEquipName2 0
+$MiniGame::StartEquipName3 0
+$MiniGame::StartEquipName4 0
+
+
+//config settings
+$Server::WelcomeMessage \c2Welcome to Flappy Bird, %1. Type /stats for more info. Note: Crouching doesn't work!
