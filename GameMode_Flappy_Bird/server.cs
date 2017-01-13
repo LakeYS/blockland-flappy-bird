@@ -4,9 +4,9 @@ if(isFile("Add-Ons/System_ReturnToBlockland/server.cs"))
 {
 	if(!$RTB::RTBR_ServerControl_Hook) //fix this
 		exec("Add-Ons/System_ReturnToBlockland/hooks/serverControl.cs");
-	  
+
 	RTB_registerPref("Enable Server Name Score", "Flappy Bird", "$Pref::Server::FlappyServerName", "bool", "GameMode_Flappy_Bird", 0, 0, 1, FlappyUpdateName);
-	
+
 	$FlappyRTB = 1;
 }
 
@@ -20,7 +20,7 @@ function FlappyUpdateName()
 
 	$Server::Name = %nameB;
 	$Pref::Server::Name = %nameB;
-	
+
 	for(%i=0;%i<ClientGroup.getCount();%i++)
 	{
 		%cl = ClientGroup.getObject(%i);
@@ -45,24 +45,24 @@ datablock PlayerData(PlayerFlappyArmor : PlayerStandardArmor)
 	maxForwardCrouchSpeed = 0;
 	maxBackwardCrouchSpeed = 0;
 	maxSideCrouchSpeed = 0;
-	
+
 	crouchBoundingBox = PlayerStandardArmor.boundingBox; //remove the crouch bounding box
-	
+
 	canJet = 0;
 
 	jumpForce = 0;
 	jumpEnergyDrain = 0;
 	minJumpEnergy = 0;
 	jumpDelay = 0;
-	
+
 	thirdPersonOnly = 1;
 	firstPersonOnly = 0;
 
 	//maxLookAngle = 0;
 	//minLookAngle = 0;
-	
+
 	maxSideSpeed = 0;
-	
+
 	is2DPlayer = 1;
 	cameraDirection2D = 0;
 	cameraPitch2D = 0;
@@ -88,21 +88,31 @@ datablock PlayerData(PlayerFlappyCrouchCheatArmor : PlayerFlappyArmor)
 	uiName = "Flappy Player Crouch";
 };
 
-datablock fxDTSBrickData(brick1x1x8Data)
+datablock fxDTSBrickData(brickFlappySpawnData)
 {
-	brickFile = "./bricks/1x1x8.blb";
-	category = "Bricks";
-	subCategory = "8x Height";
-	uiName = "1x1x8";
+	brickFile = "./bricks/flappySpawn.blb";
+	category = "Special";
+	subCategory = "Interactive";
+	uiName = "Flappy Bird Spawn";
 };
 
-datablock fxDTSBrickData(brick1x1x10Data)
+function brickFlappySpawnData::onRemove(%data, %brick)
 {
-	brickFile = "./bricks/1x1x10.blb";
-	category = "Bricks";
-	subCategory = "10x Height";
-	uiName = "1x1x10";
-};
+	if(!isObject(%group = %brick.getGroup()))
+		return;
+
+	%group.removeSpawnBrick(%brick);
+}
+
+function brickFlappySpawnData::onPlant(%data, %brick)
+{
+	flappySpawnPlant(%brick);
+}
+
+function brickFlappySpawnData::onLoadPlant(%data, %brick)
+{
+	flappySpawnPlant(%brick);
+}
 
 function flappySpawnPlant(%brick)
 {
@@ -121,14 +131,14 @@ function flapLoop()
 {
 	if(ClientGroup.getCount() != 0)
 	{
-		for(%i = 0; %i < ClientGroup.getCount(); %i++) 
-		{ 
-			%client = clientGroup.getObject(%i); 
+		for(%i = 0; %i < ClientGroup.getCount(); %i++)
+		{
+			%client = clientGroup.getObject(%i);
 			%player = %client.player;
 			if(isObject(%player) && !%client.noFlap && !%player.noFlap)
 			{
 				%player.setVelocity($FlappySpeed SPC getWords(%player.getVelocity(),1,2));
-				
+
 				if(getWord(%player.getTransform(),2)>$FlappyCheaterHeight)
 				{
 					//messageClient(%client,'MsgFlappyCheater',"CHEATER!");
@@ -145,22 +155,22 @@ function flapLoop()
 function distLoop()
 {
 	for(%i=0;%i<ClientGroup.getCount();%i++)
-	{ 
+	{
 		%client = clientGroup.getObject(%i);
 		%player = %client.player;
 		if(isObject(%player) && !%client.noFlap && !%player.noFlap)
 		{
-			%client.distance = mCeil(getWord(%player.getTransform()+%player.flappyPosAdd,0)); 
+			%client.distance = mCeil(getWord(%player.getTransform()+%player.flappyPosAdd,0));
 			%id = %client.getblid();
 			%viewdistance = %client.distance;
 			%highscore = $FlappyHighScorePersonal[%id];
-			
+
 			if(%client.distance < 0)
 				%viewdistance = 0;
-			
+
 			if(!%client.noPrint)
 				%client.bottomPrint("<font:impact:50><color:FFFF00><just:left>Score: " @ %viewdistance @ "<just:right>Best: " @ %highscore,1,1);
-			
+
 			if(isObject(%player) && getWord(%player.getTransform(),0)>=$FlappyPosEnd)
 			{
 				%pos1 = getWord(%player.getTransform(),0);
@@ -168,56 +178,56 @@ function distLoop()
 				%pos2 = getWord(%player.getTransform(),0);
 				%player.flappyPosAdd += %pos1-%pos2;
 			}
-			
+
 			//because of the 2d camera's distance, 3d sounds are quieter (which makes 2d sounds too loud to use)
 			//i might try playing sounds between the player and camera for balance
-			
+
 			if(%client.distance > 200 && !%player.flappyBronze)
 			{
 				$FlappyHighScoreBronze[%id] = 1;
 				$FlappyHighScoreBronzeCount[%id]++;
 				%player.flappyBronze = 1;
 				%client.centerPrint("<font:impact:40><color:CD7F32>Bronze Medal Awarded",5);
-				
+
 				%player.emote(winStarProjectile, 1);
-				serverPlay3D(rewardSound,%player.position); 
+				serverPlay3D(rewardSound,%player.position);
 			}
-			
+
 			if(%client.distance > 400 && !%player.flappySilver)
 			{
 				$FlappyHighScoreSilver[%id] = 1;
 				$FlappyHighScoreSilverCount[%id]++;
 				%player.flappySilver = 1;
 				%client.centerPrint("<font:impact:40><color:afafaf>Silver Medal Awarded",5);
-				
+
 				%player.emote(winStarProjectile, 1);
 				serverPlay3D(rewardSound,%player.position);
 			}
-			
+
 			if(%client.distance > 800 && !%player.flappyGold)
 			{
 				$FlappyHighScoreGold[%id] = 1;
 				$FlappyHighScoreGoldCount[%id]++;
 				%player.flappyGold = 1;
 				%client.centerPrint("<font:impact:40><color:ffd420>Gold Medal Awarded",5);
-				
+
 				%player.emote(winStarProjectile, 1);
 				serverPlay3D(rewardSound,%player.position);
 			}
-			
+
 			if(%client.distance > 1600 && !%player.flappyPlatinum)
 			{
 				$FlappyHighScorePlatinum[%id] = 1;
 				$FlappyHighScorePlatinumCount[%id]++;
 				%player.flappyPlatinum = 1;
 				%client.centerPrint("<font:impact:40><color:ffffff>Platinum Medal Awarded",5);
-				
+
 				%player.emote(winStarProjectile, 1);
 				serverPlay3D(rewardSound,%player.position);
 			}
-		} 
+		}
 	}
-	
+
 	$distloop = schedule(32,0,distLoop);
 }
 
@@ -240,16 +250,16 @@ function flap(%player)
 		if(!%player.isJumpTimeout)
 		{
 			%player.playThread(0,jump);
-			
+
 			%jumpVelocity = getRandom($FlappyJumpVelocity1,$FlappyJumpVelocity2);
 			serverPlay3D(jumpSound,%player.position);
 			%player.setVelocity(getWords(%player.getVelocity(),0,1) SPC %jumpVelocity);
-			
+
 			%player.isJumpTimeout = 1;
 			%timeout = getRandom($FlappyJumpTimeout1,$FlappyJumpTimeout2);
 			%player.timeout = %player.schedule(%timeout,setAttribute,isJumpTimeout,0);
 		}
-		
+
 		return 1;
 	}
 }
@@ -257,14 +267,14 @@ function flap(%player)
 function FlappyBirdDeath(%client)
 {
 	if($DistLoop==0 || %client.noFlap || %client.player.noFlap)
-		return; 
-	
+		return;
+
 	$FlappyHighScoreDeaths[%client.bl_id]++;
-	
-	//echo(%client.name @ " DIED; final score is " @ %client.distance); 
+
+	//echo(%client.name @ " DIED; final score is " @ %client.distance);
 	%score = %client.distance;
 	%oldScore = $FlappyHighScorePersonal[%client.bl_id];
-	
+
 	if(%score > $FlappyHighScorePersonal[%client.bl_id])
 	{
 		if($FlappyHighScorePersonal[%client.bl_id])
@@ -274,12 +284,12 @@ function FlappyBirdDeath(%client)
 		$FlappyHighScoreUpdate = 1;
 		//messageClient(%client,'MsgFlappyBirdPersonalScoreWin',"Your new personal record is \c6" @ %score @ "\c0!");
 	}
-	
+
 	if(%client.bl_id==999999)
 		%leaderboard = 1;
-	
+
 	messageClient(%client,'MsgFlappyBirdDead',"You died! Distance: \c6" @ %client.distance @ %message);
-	
+
 	//leaderboard check
 	if(%score > $FlappyHighScore[20] && %leaderboard)
 	{
@@ -288,7 +298,7 @@ function FlappyBirdDeath(%client)
 			if(%score > $FlappyHighScore[%i])
 			{
 				%newpos = %i;
-				
+
 				//if they already have a lower slot, we'll remove it and push down scores to fill it.
 				if(%client.bl_id != 999999)
 				{
@@ -309,48 +319,48 @@ function FlappyBirdDeath(%client)
 						}
 					}
 				}
-				
+
 				if(!%emptySlot)
 					%emptySlot = 20;
-				
+
 				if(%emptyslot == %newpos)
 				{
 					if(%newpos <= 10) //leaderboard scores above 10 are recorded but hidden (for now)
 						messageClient(%client,'',"Congratulations, your score is \c6#" @ %newpos @ "\c0 on the leaderboard! Type /leaderboard to view it.");
-					
+
 					$FlappyHighScore[%newpos] = %score;
 					$FlappyHighScoreName[%newpos] = %client.name;
 					$FlappyHighScoreID[%newpos] = %client.bl_id;
-					
+
 					if(%client.bl_id==999999)
 						$FlappyHighScoreID[%newpos] = "LAN";
-					
+
 					$FlappyHighScoreUpdate = 1;
 					break;
 				}
-				
+
 				if(%emptySlot < %newpos)
 					error("Flappy Bird - Empty slot < new position! (i: " @ %i @ "; iB: " @ %iB @ "; newpos: " @ %newpos @ "; emptyslot: " @ %emptyslot @ "; score: " @ %score @ "; player: " @ %client.bl_id SPC %client.name @ ")");
-				
+
 				//%emptySlot is the slot to be filled. %emptySlot-1 is the last slot to be pushed down.
-				
+
 				for(%iC = %emptySlot-1; %iC >= %newpos; %iC--)
 				{
 					$FlappyHighScore[%iC+1] = $FlappyHighScore[%iC];
 					$FlappyHighScoreName[%iC+1] = $FlappyHighScoreName[%iC];
 					$FlappyHighScoreID[%iC+1] = $FlappyHighScoreID[%iC];
-					
+
 					if(%iC == %newpos)
 					{
 						//echo("filling score #" @ %newpos @ " with the new values (" @ %client.name @ ", " @ %client.bl_id @ ", " @ %score @ ")");
-						
+
 						if(%newpos <= 10) //leaderboard scores above 10 are recorded but hidden (for now)
 							messageClient(%client,'',"Congratulations! Your score is \c6#" @ %newpos @ "\c0 on the leaderboard!");
-						
+
 						$FlappyHighScore[%newpos] = %score;
 						$FlappyHighScoreName[%newpos] = %client.name;
 						$FlappyHighScoreID[%newpos] = %client.bl_id;
-						
+
 						if(%client.bl_id==999999)
 							$FlappyHighScoreID[%newpos] = "LAN";
 					}
@@ -359,7 +369,7 @@ function FlappyBirdDeath(%client)
 				break;
 			}
 		}
-		
+
 		if(%newpos == 1)
 		{
 			FlappyUpdateName(); //set server name
@@ -368,7 +378,7 @@ function FlappyBirdDeath(%client)
 				WebCom_PostServer();
 		}
 	}
-	
+
 	if(!%client.noPrint)
 		%client.bottomPrint("<font:impact:50><color:FFFF00><just:left>Score: "@%client.distance @ "<just:right>Best: " @ $FlappyHighScorePersonal[%client.bl_id],0,1);
 	%client.score = $FlappyHighScorePersonal[%client.bl_id];
@@ -377,27 +387,27 @@ function FlappyBirdDeath(%client)
 package GameMode_Flappy_Bird
 {
 	//flap by jumping (onTrigger slot 2)
-	function Armor::onTrigger(%data,%obj,%slot,%val) 
+	function Armor::onTrigger(%data,%obj,%slot,%val)
 	{
-		Parent::onTrigger(%data,%obj,%slot,%val); 
+		Parent::onTrigger(%data,%obj,%slot,%val);
 		//%obj = player
-		if(%slot == 2 && %val) 
+		if(%slot == 2 && %val)
 			flap(%obj);
 	}
-	
+
 	//flap by planting
 	function serverCmdPlantBrick(%client)
 	{
 		if(isObject(%client.player) && !%client.noPlantFlap)
 		{
 			%flap = flap(%client.player);
-			
+
 			if(%flap)
 				return;
 		}
-		Parent::serverCmdPlantBrick(%client); 
+		Parent::serverCmdPlantBrick(%client);
 	}
-	
+
 	//onDrop
 	function GameConnection::onDrop(%client,%a)
 	{
@@ -406,17 +416,17 @@ package GameMode_Flappy_Bird
 	}
 
 	//onDeath
-	function GameConnection::onDeath(%client) 
+	function GameConnection::onDeath(%client)
 	{
 		FlappyBirdDeath(%client);
-		parent::onDeath(%client); 
+		parent::onDeath(%client);
 	}
 
 	////CLEANUP////
 	function destroyServer()
 	{
 		echo("Exporting Flappy Bird high scores (server closing)");
-		
+
 		export("$FlappyHighScore*","config/server/FlappyBirdScores.cs");
 		deleteVariables("$Flappy*");
 		cancel($exportLoop);
@@ -427,54 +437,54 @@ package GameMode_Flappy_Bird
 
 	////CLEANUP////
 	function onExit()
-	{		
+	{
 		echo("Exporting Flappy Bird high scores (server closing/quit)");
-		
+
 		export("$FlappyHighScore*","config/server/FlappyBirdScores.cs");
 		deleteVariables("$Flappy*");
 		cancel($exportLoop);
 		cancel($flapLoop);
 		cancel($distLoop);
-		
+
 		parent::onExit();
 	}
-	
+
 	////prevent admin cheaters////
 	function serverCmdDropCameraAtPlayer(%client)
 	{
 		FlappyBirdDeath(%client);
-		
+
 		if(%client.isAdmin)
 		{
 			%client.player.noFlap = 1;
 			%client.player.flappyOrb = 1;
 		}
-		
+
 		Parent::ServerCmdDropCameraAtPlayer(%client);
 	}
 	function serverCmdDropPlayerAtCamera(%client)
 	{
-		if(!%client.player.flappyOrb && %client.player.dataBlock $= "PlayerFlappyArmor")
+		if(!%client.player.flappyOrb && %client.player.dataBlock $= "PlayerFlappyArmor") // F7 toggles third person
 			%client.player.setDatablock("playerFlappyNo2DArmor");
 		else if(!%client.player.flappyOrb && %client.player.dataBlock $= "playerFlappyNo2DArmor")
 			%client.player.setDatablock("PlayerFlappyArmor");
 		else
 		{
 			FlappyBirdDeath(%client);
-			
+
 			if(%client.isAdmin)
 				%client.player.noFlap = 1;
-			
+
 			Parent::serverCmdDropPlayerAtCamera(%client);
 		}
 	}
 	function serverCmdWarp(%client)
 	{
 		FlappyBirdDeath(%client);
-		
+
 		if(%client.isAdmin)
 			%client.player.noFlap = 1;
-		
+
 		Parent::serverCmdWarp(%client);
 	}
 	function serverCmdFetch(%client,%this)
@@ -485,10 +495,10 @@ package GameMode_Flappy_Bird
 	function serverCmdFind(%client,%this)
 	{
 		FlappyBirdDeath(%client);
-		
+
 		if(%client.isAdmin)
 			%client.player.noFlap = 1;
-		
+
 		Parent::serverCmdFind(%client,%this);
 	}
 
@@ -507,10 +517,10 @@ package GameMode_Flappy_Bird
 				%output1 = %val1;
 				%output2 = %val2;
 			}
-			
+
 			$FlappyJumpVelocity1 = %output1;
 			$FlappyJumpVelocity2 = %output2;
-			
+
 			messageAll('MsgJumpControl',%client.name @ " changed the jump velocity to (" @ %output1 @ "," @ %output2 @ ")");
 		}
 	}
@@ -530,10 +540,10 @@ package GameMode_Flappy_Bird
 				%output1 = %val1;
 				%output2 = %val2;
 			}
-			
+
 			$FlappyJumpTimeout1 = %output1;
 			$FlappyJumpTimeout2 = %output2;
-			
+
 			messageAll('MsgJumpControl',%client.name @ " changed the jump timeout to (" @ %output1 @ "," @ %output2 @ ")");
 		}
 	}
@@ -542,7 +552,7 @@ package GameMode_Flappy_Bird
 	{
 		if(!%client.isSuperAdmin)
 			return;
-		
+
 		if(!$FlapLoop)
 		{
 			echo("Flap loop enabled by " @ %client.name);
@@ -562,7 +572,7 @@ package GameMode_Flappy_Bird
 	{
 		if(!%client.isSuperAdmin)
 			return;
-		
+
 		if(!$DistLoop)
 		{
 			echo("Distance loop enabled by " @ %client.name);
@@ -585,7 +595,7 @@ package GameMode_Flappy_Bird
 
 		echo(%client.name SPC "is resetting the default settings for Flappy Bird...");
 		messageAll('MsgFlappyReset',%client.name SPC "is resetting the default settings for Flappy Bird...");
-		
+
 		$FlappyJumpVelocity1 = 9.85;
 		$FlappyJumpVelocity2 = 9.85;
 
@@ -595,9 +605,9 @@ package GameMode_Flappy_Bird
 		$FlappyJumpAirAnim = 1;
 
 		//old
-		//$FlappyPosStart = 334.75; 
+		//$FlappyPosStart = 334.75;
 		//$FlappyPosEnd = 590.75;
-		
+
 		$FlappyPosStart = 95.75;
 		$FlappyPosEnd = 831.75;
 
@@ -610,7 +620,7 @@ package GameMode_Flappy_Bird
 	{
 		if(!%client.isSuperAdmin)
 			return;
-		
+
 		if(%speed < 1 || %speed > 100 || !%speed)
 		{
 			$FlappySpeed = 10;
@@ -628,7 +638,7 @@ package GameMode_Flappy_Bird
 	{
 		if(!%client.isSuperAdmin)
 			return;
-		
+
 		if(%height < 0 || !%height)
 		{
 			$FlappyCheaterHeight = 90;
@@ -646,27 +656,27 @@ package GameMode_Flappy_Bird
 	{
 		if(!%client.isSuperAdmin)
 			return;
-		
+
 		cancel($FlapLoop);
 		flapLoop();
-		
+
 		echo(%client.name @ " reset the flap loop");
 	}
 
 	function serverCmdLeaderboard(%client)
 	{
 		for(%i = 10; %i >= 1; %i--)
-			messageClient(%client,'',"\c0#:\c6 " @ %i @ " \c7|\c0 Distance:\c6 " @ $FlappyHighScore[%i] @ " \c7|\c0 ID:\c6 " @ $FlappyHighScoreID[%i] @ " \c7|\c0 Name:\c6 " @ $FlappyHighScoreName[%i]);
-		
+			messageClient(%client,'',"\c5#:\c6 " @ %i @ " \c7|\c5 Distance:\c6 " @ $FlappyHighScore[%i] @ " \c7|\c5 ID:\c6 " @ $FlappyHighScoreID[%i] @ " \c7|\c5 Name:\c6 " @ $FlappyHighScoreName[%i]);
+
 		messageClient(%client,'FlappyHighScoreEnd',"Press PageUp to see more. Tip: You can also see high scores in the player list!");
 	}
-	
+
 	function leaderboard() //Copied from above
 	{
 		for(%i = 10; %i >= 1; %i--)
 			echo("\c0#:\c6 " @ %i @ " \c7|\c0 Distance:\c6 " @ $FlappyHighScore[%i] @ " \c7|\c0 ID:\c6 " @ $FlappyHighScoreID[%i] @ " \c7|\c0 Name:\c6 " @ $FlappyHighScoreName[%i]);
 	}
-	
+
 	function serverCmdHighScores(%client)
 	{
 		serverCmdLeaderboard(%client);
@@ -676,7 +686,7 @@ package GameMode_Flappy_Bird
 	{
 		%id = %client.bl_id;
 		%findID = findClientByBL_ID(%target);
-		
+
 		if(%target !$= "")
 		{
 			if($FlappyHighScorePersonal[%target]) // They specified a valid ID
@@ -694,7 +704,7 @@ package GameMode_Flappy_Bird
 						break;
 					}
 				}
-				
+
 				for(%i = 2; %i <= mainBrickGroup.getCount()-1; %i++) // They specified the name of someone that was previously on the server
 				{
 					%brickgroup = mainBrickGroup.getObject(%i);
@@ -708,10 +718,10 @@ package GameMode_Flappy_Bird
 				}
 			}
 		}
-		
+
 		if(%name $= "")
 			%name = findClientByBL_ID(%id).name;
-		
+
 		if(%id == %client.bl_id)
 		{
 			%playerWordA = "Your";
@@ -724,27 +734,12 @@ package GameMode_Flappy_Bird
 			%playerWordB = "This person has";
 			%playerWordC = "They have";
 		}
-		
-		if($FlappyHighScoreBronzeCount[%id] == 1)
-			%bronzeWord = "medal";
-		else
-			%bronzeWord = "medals";
-		
-		if($FlappyHighScoreSilverCount[%id] == 1)
-			%silverWord = "medal";
-		else
-			%silverWord = "medals";
-		
-		if($FlappyHighScoreGoldCount[%id] == 1)
-			%goldWord = "medal";
-		else
-			%goldWord = "medals";
-		
-		if($FlappyHighScorePlatinumCount[%id] == 1)
-			%platinumWord = "medal";
-		else
-			%platinumWord = "medals";
-			
+
+		%bronzeWord = ($FlappyHighScoreBronzeCount[%id])?"medal":"medals";
+		%silverWord = ($FlappyHighScoreSilverCount[%id])?"medal":"medals";
+		%goldWord =	($FlappyHighScoreGoldCount[%id])?"medal":"medals";
+		%platinumWord  = ($FlappyHighScorePlatinumCount[%id])?"medal":"medals";
+
 		//scores from older versions won't have certain values so we need to fill them
 		if($FlappyHighScoreBronzeCount[%id])
 			%bronzeCount = $FlappyHighScoreBronzeCount[%id];
@@ -755,7 +750,7 @@ package GameMode_Flappy_Bird
 			else
 				%bronzeCount = 0;
 		}
-		
+
 		if($FlappyHighScoreSilverCount[%id])
 			%silverCount = $FlappyHighScoreSilverCount[%id];
 		else
@@ -765,7 +760,7 @@ package GameMode_Flappy_Bird
 			else
 				%silverCount = 0;
 		}
-		
+
 		if($FlappyHighScoreGoldCount[%id])
 			%goldCount = $FlappyHighScoreGoldCount[%id];
 		else
@@ -775,7 +770,7 @@ package GameMode_Flappy_Bird
 			else
 				%goldCount = 0;
 		}
-		
+
 		if($FlappyHighScorePlatinumCount[%id])
 			%platinumCount = $FlappyHighScorePlatinumCount[%id];
 		else
@@ -785,34 +780,34 @@ package GameMode_Flappy_Bird
 			else
 				%platinumCount = 0;
 		}
-		
+
 		if($FlappyHighScoreDeaths[%id])
 			%deathCount = $FlappyHighScoreDeaths[%id];
 		else if(!$FlappyHighScorePersonal[%id]) // They don't have a high score either which means they're new. Display the count as 0.
 			%deathCount = 0;
 		else
 			%deathCount = "?"; // Death count is blank because the score is from an older version. Display question mark.
-			
-		
+
+
 		if(%id != %client.bl_id)
 		{
 			if(%name $= "")
-				messageClient(%client,'FlappyStats',"\c0Viewing stats for BL_ID \c6" @ %id @ "\c0.");
+				messageClient(%client,'FlappyStats',"\c5Viewing stats for BL_ID \c6" @ %id @ "\c5.");
 			else
-				messageClient(%client,'FlappyStats',"\c0Viewing stats for player \c6" @ %name @ "\c0.");
+				messageClient(%client,'FlappyStats',"\c5Viewing stats for player \c6" @ %name @ "\c5.");
 		}
-		
-		messageClient(%client,'FlappyStats',"\c0" @ %playerWordA @ " high score is \c6" @ $FlappyHighScorePersonal[%id] @ "\c0. " @ %playerWordC @ " died \c6" @ %deathCount @ "\c0 times.");
-		messageClient(%client,'FlappyStats',"\c0" @ %playerWordB @ " \c6" @ %bronzeCount @ "\c0 bronze " @ %bronzeWord @ ", \c6" @ %silverCount @ "\c0 silver " @ %silverWord @ ", \c6" @ %goldCount @ "\c0 gold " @ %goldWord @ ", and \c6" @ %platinumCount @ "\c0 platinum " @ %platinumWord @ ".");
-		
+
+		messageClient(%client,'FlappyStats',"\c5" @ %playerWordA @ " high score is \c6" @ $FlappyHighScorePersonal[%id] @ "\c5. " @ %playerWordC @ " died \c6" @ %deathCount @ "\c5 times.");
+		messageClient(%client,'FlappyStats',"\c5" @ %playerWordB @ " \c6" @ %bronzeCount @ "\c5 bronze " @ %bronzeWord @ ", \c6" @ %silverCount @ "\c5 silver " @ %silverWord @ ", \c6" @ %goldCount @ "\c5 gold " @ %goldWord @ ", and \c6" @ %platinumCount @ "\c5 platinum " @ %platinumWord @ ".");
+
 		if(%id == %client.bl_id)
-			messageClient(%client,'FlappyStats',"\c0To view top scores, type \c6/leaderboard\c0. To view other's scores, type \c6/stats (Name or ID)\c0.");
+			messageClient(%client,'FlappyStats',"\c5To view top scores, type \c6/leaderboard\c5. To view other's scores, type \c6/stats (Name or ID)\c5.");
 	}
-	
+
 	function stats(%target) // Copied from above. Removed uses of %client.
 	{
 		%findID = findClientByBL_ID(%target);
-		
+
 		if(%target !$= "")
 		{
 			if($FlappyHighScorePersonal[%target]) // They specified a valid ID
@@ -830,7 +825,7 @@ package GameMode_Flappy_Bird
 						break;
 					}
 				}
-				
+
 				for(%i = 2; %i <= mainBrickGroup.getCount()-1; %i++) // They specified the name of someone that was previously on the server
 				{
 					%brickgroup = mainBrickGroup.getObject(%i);
@@ -844,40 +839,40 @@ package GameMode_Flappy_Bird
 				}
 			}
 		}
-		
+
 		if(!%id)
 		{
 			warn("Couldn't find the specified user.");
 			return;
 		}
-		
+
 		if(%name $= "")
 			%name = findClientByBL_ID(%id).name;
-		
+
 		%playerWordA = "This person's";
 		%playerWordB = "This person has";
 		%playerWordC = "They have";
-		
+
 		if($FlappyHighScoreBronzeCount[%id] == 1)
 			%bronzeWord = "medal";
 		else
 			%bronzeWord = "medals";
-		
+
 		if($FlappyHighScoreSilverCount[%id] == 1)
 			%silverWord = "medal";
 		else
 			%silverWord = "medals";
-		
+
 		if($FlappyHighScoreGoldCount[%id] == 1)
 			%goldWord = "medal";
 		else
 			%goldWord = "medals";
-		
+
 		if($FlappyHighScorePlatinumCount[%id] == 1)
 			%platinumWord = "medal";
 		else
 			%platinumWord = "medals";
-			
+
 		//scores from older versions won't have certain values so we need to fill them
 		if($FlappyHighScoreBronzeCount[%id])
 			%bronzeCount = $FlappyHighScoreBronzeCount[%id];
@@ -888,7 +883,7 @@ package GameMode_Flappy_Bird
 			else
 				%bronzeCount = 0;
 		}
-		
+
 		if($FlappyHighScoreSilverCount[%id])
 			%silverCount = $FlappyHighScoreSilverCount[%id];
 		else
@@ -898,7 +893,7 @@ package GameMode_Flappy_Bird
 			else
 				%silverCount = 0;
 		}
-		
+
 		if($FlappyHighScoreGoldCount[%id])
 			%goldCount = $FlappyHighScoreGoldCount[%id];
 		else
@@ -908,7 +903,7 @@ package GameMode_Flappy_Bird
 			else
 				%goldCount = 0;
 		}
-		
+
 		if($FlappyHighScorePlatinumCount[%id])
 			%platinumCount = $FlappyHighScorePlatinumCount[%id];
 		else
@@ -918,63 +913,63 @@ package GameMode_Flappy_Bird
 			else
 				%platinumCount = 0;
 		}
-		
+
 		if($FlappyHighScoreDeaths[%id])
 			%deathCount = $FlappyHighScoreDeaths[%id];
 		else if(!$FlappyHighScorePersonal[%id]) // They don't have a high score either which means they're new. Display the count as 0.
 			%deathCount = 0;
 		else
 			%deathCount = "?"; // Death count is blank because the score is from an older version. Display question mark.
-			
+
 		if(%name $= "")
 			echo("\c0Viewing stats for BL_ID \c6" @ %id @ "\c0.");
 		else
 			echo("\c0Viewing stats for player \c6" @ %name @ "\c0.");
-		
+
 		echo("\c0" @ %playerWordA @ " high score is \c6" @ $FlappyHighScorePersonal[%id] @ "\c0. " @ %playerWordC @ " died \c6" @ %deathCount @ "\c0 times.");
 		echo("\c0" @ %playerWordB @ " \c6" @ %bronzeCount @ "\c0 bronze " @ %bronzeWord @ ", \c6" @ %silverCount @ "\c0 silver " @ %silverWord @ ", \c6" @ %goldCount @ "\c0 gold " @ %goldWord @ ", and \c6" @ %platinumCount @ "\c0 platinum " @ %platinumWord @ ".");
 	}
-	
+
 	function serverCmdMyHighScore(%client,%target)
 	{
 		serverCmdStats(%client,%target);
 	}
-	
+
 	function GameConnection::autoAdminCheck(%client)
 	{
 		%id = %client.bl_id;
 		//initialize their high score variables (this is necessary)
 		if(!$FlappyHighScorePersonal[%id])
 			$FlappyHighScorePersonal[%id] = 0;
-		
+
 		if(!$FlappyHighScoreDeaths[%id])
 			$FlappyHighScoreDeaths[%id] = 0;
-		
+
 		if(!$FlappyHighScoreBronzeCount[%id])
 			$FlappyHighScoreBronzeCount[%id] = 0;
-		
+
 		if(!$FlappyHighScoreSilverCount[%id])
 			$FlappyHighScoreSilverCount[%id] = 0;
-		
+
 		if(!$FlappyHighScoreGoldCount[%id])
 			$FlappyHighScoreGoldCount[%id] = 0;
-		
+
 		if(!$FlappyHighScorePlatinumCount[%id])
 			$FlappyHighScorePlatinumCount[%id] = 0;
-		
+
 		//add medals to their count if they earned them previously
 		if($FlappyHighScoreBronze[%id] && !$FlappyHighScoreBronzeCount[%id])
 			$FlappyHighScoreBronzeCount[%id] = 1;
-		
+
 		if($FlappyHighScoreSilver[%id] && !$FlappyHighScoreSilverCount[%id])
 			$FlappyHighScoreSilverCount[%id] = 1;
-		
+
 		if($FlappyHighScoreGold[%id] && !$FlappyHighScoreGoldCount[%id])
 			$FlappyHighScoreGoldCount[%id] = 1;
-		
+
 		if($FlappyHighScorePersonal[%id] > 1600 && !$FlappyHighScorePlatinumCount[%id]) //give them the platinum medal if they have the score
 			$FlappyHighScorePlatinumCount[%id] = 1;
-		
+
 		//check for a leaderboard name update
 		for(%i = 1; %i < 11; %i++)
 		{
@@ -984,7 +979,7 @@ package GameMode_Flappy_Bird
 				$FlappyHighScoreName[%i] = %client.name;
 			}
 		}
-		
+
 		Parent::autoAdminCheck(%client);
 	}
 };
@@ -999,7 +994,7 @@ $FlappyJumpTimeout1 = 125;
 $FlappyJumpTimeout2 = 125;
 
 //old
-//$FlappyPosStart = 334.75; 
+//$FlappyPosStart = 334.75;
 //$FlappyPosEnd = 590.75;
 
 $FlappyPosStart = 95.75;
@@ -1019,22 +1014,22 @@ if(!$FlappyLoaded)
 			$FlappyHighScoreName[%i] = "Flappy Bird";
 			$FlappyHighScoreID[%i] = 50;
 		}
-		
+
 		echo("Exporting Flappy Bird high scores...");
 		export("$FlappyHighScore*","config/server/FlappyBirdScores.cs");
 	}
 	else
 		exec("config/server/FlappyBirdScores.cs");
-	
+
 	if($GameModeArg $= "Add-Ons/GameMode_Flappy_Bird/gamemode.txt")
 	{
 		if(isFile("Add-Ons/Brick_WedgePlus/server.cs"))
 			exec("Add-Ons/Brick_WedgePlus/server.cs");
-		
+
 		flapLoop();
 		distLoop();
 	}
-	
+
 	schedule(120000,0,exportloop);
 	$FlappyLoaded = 1;
 }

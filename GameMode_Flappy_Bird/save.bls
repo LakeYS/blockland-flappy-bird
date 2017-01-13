@@ -65,7 +65,7 @@ This is a Blockland save file.  You probably shouldn't modify it cause you'll sc
 1.000000 0.000000 1.000000 0.000000
 1.000000 0.000000 1.000000 0.000000
 1.000000 0.000000 1.000000 0.000000
-Linecount 9326
+Linecount 8876
 32x32 Base" 455.5 26 0.1 1 1 5  0 0 1 1 0
 32x32 Base" 39.5 26 0.1 1 1 5  0 0 1 1 0
 32x32 Base" -24.5 2 0.1 1 1 5  0 0 1 1 0
@@ -843,13 +843,13 @@ Linecount 9326
 2x6x3" 707.5 16 33.3 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x16 Base" -4.5 14 40.3 0 0 2  0 0 1 1 1
-1x1x8" 581.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 705.25 12.25 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 837.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 705.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 581.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 705.75 11.75 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 705.75 16.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -859,18 +859,18 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 817.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 897.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 805.25 11.75 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 821.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x16 Base" -12.5 14 40.3 0 0 2  0 0 1 1 1
-1x1x5" 901.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x6x5" 83.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 821.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 821.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 901.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x6x5" 83.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 817.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -923,9 +923,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 625.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 897.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x6x5" 85.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 577.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1" 709.25 15.75 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 835.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5 Wedge" 421.25 16.25 33.9 0 0 7  0 0 1 1 1
@@ -950,9 +950,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 725.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 545.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 709.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 549.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 709.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 771.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5 Wedge" 769.75 11.75 33.9 2 0 7  0 0 1 1 1
@@ -961,21 +961,21 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 769.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 549.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 85.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 705.25 15.75 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 849.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 81.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 853.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 81.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 723.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1 Wedge" 293.25 11.75 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 853.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 245.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 387.5 14 40.4 2 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 849.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 245.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 385.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1004,7 +1004,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 369.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 545.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 805.75 12.25 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 709.25 12.25 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1032,7 +1032,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 373.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 513.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 245.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 371.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1044,7 +1044,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 369.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 517.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 245.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 373.25 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1052,21 +1052,21 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 373.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 517.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1" 801.75 12.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 753.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 753.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 817.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 241.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 771.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 371.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 821.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 801.25 12.25 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 821.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 801.75 11.75 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 773.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1082,7 +1082,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 771.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 817.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 241.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 769.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1094,14 +1094,14 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 355.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 513.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5" 241.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 355.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 433.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5" 241.75 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 437.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x6x5" 243.5 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 437.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x6x5" 241.25 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 357.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1113,7 +1113,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 357.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 769.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x6x5" 245.75 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 353.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1121,9 +1121,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 353.75 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 773.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x6x5" 243.5 11.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 773.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 241.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 915.5 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1135,9 +1135,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 917.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 769.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5" 245.25 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 753.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 245.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 917.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1167,13 +1167,12 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 357.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 757.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 261.25 11.75 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 913.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 757.75 11.75 33.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 753.25 11.75 33.9 3 0 7  0 0 0 1 0
+16x Cube Steep" 707.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
+2x6x3" 403.5 16 33.3 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 917.25 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1182,7 +1181,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 357.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 737.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 689.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 385.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1190,25 +1189,25 @@ Linecount 9326
 1x1x5 Wedge" 337.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 339.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 741.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 693.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 741.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1" 805.25 15.75 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 737.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5" 693.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 433.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 805.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 401.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 693.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 405.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 689.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 405.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 225.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 341.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 341.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 401.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 85.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 341.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1248,7 +1247,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 321.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 305.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1" 261.25 12.25 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 437.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1272,7 +1271,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 437.25 12.25 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 309.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 689.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 323.5 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1290,15 +1289,15 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 497.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 309.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 805.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 499.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 305.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x6x5" 691.5 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 497.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 323.5 14 40.4 2 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 289.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5" 693.25 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 321.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1312,8 +1311,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 321.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 293.75 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+16x Cube Steep" 691.5 14 40.4 2 0 5 Letters/-space 0 0 0 0 0
 1x1x5" 497.75 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 325.75 15.75 33.9 0 0 7  0 0 1 1 1
@@ -1332,7 +1330,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 325.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 293.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 689.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 497.25 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1348,7 +1346,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 2x6x3" 307.5 16 33.3 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 689.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x6x5" 689.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 501.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1386,13 +1384,13 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 309.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 693.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 693.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 693.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x6x5" 693.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 689.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5" 689.75 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 673.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 689.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 307.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5" 389.25 15.75 33.9 0 0 7  0 0 1 1 1
@@ -1433,29 +1431,27 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 469.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 677.75 16.25 33.9 3 0 7  0 0 0 1 0
+16x Cube Steep" 803.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
+1x1 Wedge" 401.75 16.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 677.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 229.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 673.25 11.75 33.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 641.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 229.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 291.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 645.75 16.25 33.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+16x Cube Steep" 851.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5 Wedge" 273.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 275.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 645.75 11.75 33.9 3 0 7  0 0 0 1 0
+2x6x3" 261.5 14 33.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 641.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 229.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 625.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 225.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 469.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 629.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 225.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 277.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1497,7 +1493,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 277.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 629.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x6x5" 227.5 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 2x6x3" 805.5 14 33.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1509,7 +1505,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 465.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 625.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5" 229.25 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 469.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1519,22 +1515,21 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 469.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 289.25 11.75 34.8 3 0 7  0 0 0 1 0
+16x Cube Steep" 227.5 14 40.4 2 0 5 Letters/-space 0 0 0 0 0
+1x1x5 Wedge" 225.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 257.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 261.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x6x5" 225.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 467.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
 1x6x5" 467.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 261.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 229.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 483.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 561.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x6x5" 229.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 565.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 225.75 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 485.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1550,7 +1545,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 483.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 565.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5" 225.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 485.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1558,9 +1553,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 481.75 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 561.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 229.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 529.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x6x5" 227.5 11.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 481.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1575,11 +1570,11 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 501.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 533.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 261.75 12.25 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 497.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 533.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1" 209.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 787.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5" 453.25 15.75 33.9 0 0 7  0 0 1 1 1
@@ -1622,17 +1617,17 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 885.75 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 529.25 11.75 33.9 3 0 7  0 0 0 1 0
+2x6x3" 209.5 14 33.3 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 881.25 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 883.5 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 257.25 11.75 34.8 3 0 7  0 0 0 1 0
+2x6x3" 211.5 16 33.3 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 209.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 209.75 16.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 213.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 209.25 15.75 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 451.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5 Wedge" 449.75 11.75 33.9 2 0 7  0 0 1 1 1
@@ -1640,13 +1635,13 @@ Linecount 9326
 1x1x5 Wedge" 385.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 515.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 213.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1" 213.25 12.25 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 481.25 16.25 33.9 3 0 7  0 0 0 1 0
+2x6x3" 213.5 14 33.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 485.75 16.25 33.9 3 0 7  0 0 0 1 0
+2x6x3" 211.5 12 33.3 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 485.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 213.25 11.75 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 517.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1690,9 +1685,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 531.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 481.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 213.75 12.25 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 465.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1" 209.75 12.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 533.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1708,7 +1703,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 531.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 469.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 209.25 12.25 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 533.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1716,9 +1711,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 529.75 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 469.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 209.75 11.75 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 465.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 257.25 15.75 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 529.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1737,18 +1732,17 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 533.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 209.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1" 213.25 15.75 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 547.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 129.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 213.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 133.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 213.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 785.75 11.75 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 133.75 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 129.25 11.75 34.8 3 0 7  0 0 0 1 0
+16x Cube Steep" 211.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
+1x6x5" 195.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 549.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1823,8 +1817,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 561.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 97.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+16x Cube Steep" 195.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
 1x6x5" 565.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 565.25 16.25 33.9 0 0 7  0 0 1 1 1
@@ -1833,29 +1826,29 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 565.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 101.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 197.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 773.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 101.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1" 257.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 97.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 193.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 563.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
 1x6x5" 563.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 65.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 197.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 785.75 16.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 579.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 69.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 693.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 69.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x6x5" 197.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 65.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1 Wedge" 257.75 16.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 33.25 16.25 34.8 3 0 7  0 0 0 1 0
+1x6x5" 193.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 581.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1895,16 +1888,16 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 577.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 37.75 16.25 34.8 3 0 7  0 0 0 1 0
+1x1x5" 193.75 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 595.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 37.75 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5" 193.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 385.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 197.25 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 389.75 16.25 33.9 3 0 7  0 0 0 1 0
+2x6x3" 259.5 12 33.3 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 389.75 11.75 33.9 3 0 7  0 0 0 1 0
+2x6x3" 259.5 16 33.3 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 597.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1926,7 +1919,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 821.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 385.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x6x5" 195.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 593.75 11.75 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1954,7 +1947,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 593.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 369.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 197.25 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 881.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -1984,9 +1977,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 739.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 373.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 193.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 373.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 193.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 741.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2008,7 +2001,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 739.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 369.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 193.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 741.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2018,11 +2011,11 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 757.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 353.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 197.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 609.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 357.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 197.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 737.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2061,13 +2054,13 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 613.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 357.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1" 257.75 12.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 353.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x6x5" 179.5 11.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 2x6x3" 787.5 12 33.3 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 33.25 11.75 34.8 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 177.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 611.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5 Wedge" 609.75 11.75 33.9 2 0 7  0 0 1 1 1
@@ -2105,11 +2098,11 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 901.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 917.75 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5" 181.25 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 917.75 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5" 177.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 913.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5" 177.75 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 897.75 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2151,7 +2144,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 625.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 881.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 177.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 629.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2161,11 +2154,10 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 629.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 885.75 16.25 35.4 3 0 7  0 0 0 1 0
+16x Cube Steep" 179.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
+1x6x5" 179.5 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 885.75 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 881.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x6x5" 177.25 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 627.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
 1x6x5" 627.5 11.75 33.9 1 0 7  0 0 1 1 1
@@ -2174,9 +2166,9 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 643.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 321.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 181.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 325.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x6x5" 181.75 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 645.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2192,7 +2184,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 643.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 325.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 181.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 645.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2202,7 +2194,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 757.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 321.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 181.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 641.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2218,13 +2210,13 @@ Linecount 9326
 1x1 Wedge" 405.75 12.25 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 659.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x10" 721.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 181.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 725.75 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 177.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 725.75 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 177.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 721.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5" 181.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 885.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2246,13 +2238,12 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 657.75 12.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 609.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x6x5" 163.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 613.75 16.25 35.4 3 0 7  0 0 0 1 0
+16x Cube Steep" 163.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
+1x6x5" 851.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 613.75 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 609.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x6x5" 851.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 881.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2309,14 +2300,13 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 869.25 11.75 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 497.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 165.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 501.75 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 161.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 501.75 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 165.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 497.25 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+16x Cube Steep" 243.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1 Wedge" 869.75 12.25 32.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 865.75 12.25 32.7 3 0 7  0 0 1 1 1
@@ -2355,13 +2345,13 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 869.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 449.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x6x5" 161.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 453.75 16.25 35.4 3 0 7  0 0 0 1 0
+2x6x3" 401.5 14 33.3 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 453.75 11.75 35.4 3 0 7  0 0 0 1 0
+1x6x5" 853.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 449.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 853.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 65.75 16.25 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2371,16 +2361,16 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 65.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 225.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 849.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 51.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 229.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 849.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 229.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 853.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 225.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 849.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 417.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 853.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 53.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2414,31 +2404,31 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 49.25 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 421.75 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5" 161.75 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 421.75 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5" 161.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x16 Base" -44.5 14 40.3 0 0 2  0 0 1 1 1
 1x1x5 Wedge" 17.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 19.5 14 40.4 2 0 5 Letters/-space 0 0 0 0 0
-1x1x10" 417.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 853.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 21.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 17.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 193.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 165.25 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 21.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 197.75 16.25 33.9 3 0 7  0 0 0 1 0
+2x6x3" 789.5 14 33.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 21.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 17.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 197.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 849.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 21.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2454,7 +2444,7 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 21.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 193.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x6x5" 163.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 17.25 14 33.9 0 0 7  0 0 1 1 1
 +-NTOBJECTNAME _secret_button
@@ -2464,13 +2454,13 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 21.75 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 337.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5" 165.25 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 259.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 16x Cube Steep" 3.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5" 725.25 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 341.75 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5" 853.25 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 2x6x3" 405.5 14 33.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2539,16 +2529,16 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 101.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 341.75 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 161.25 12.25 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 337.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 161.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 161.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 853.25 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 165.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5" 849.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 99.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 165.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5" 849.75 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 115.5 16.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2574,16 +2564,16 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 113.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 161.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x6x5" 849.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 117.25 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 83.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
-1x1x10" 273.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 161.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 277.75 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 165.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 277.75 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 165.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 81.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2599,12 +2589,11 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 677.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 273.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 241.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 113.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 145.75 11.75 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 117.75 16.25 33.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+16x Cube Steep" 147.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1x5" 85.25 15.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 85.25 12.25 33.9 1 0 7  0 0 1 1 1
@@ -2617,15 +2606,15 @@ Linecount 9326
 1x1x5 Wedge" 85.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 35.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 117.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 401.25 15.75 32.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 675.5 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 113.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 149.25 11.75 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 241.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 149.75 12.25 33.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 245.75 16.25 35.4 3 0 7  0 0 0 1 0
+1x1" 801.75 15.75 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 37.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2671,24 +2660,24 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 113.25 14 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 245.75 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 149.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 241.25 11.75 35.4 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 149.25 16.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 81.25 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 145.75 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 115.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
 16x16 Base" -52.5 14 40.3 0 0 2  0 0 1 1 1
 1x1 Wedge" 257.75 11.75 32.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 131.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 85.75 16.25 33.9 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 145.25 15.75 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 85.75 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5" 145.75 15.75 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 81.25 11.75 33.9 3 0 7  0 0 0 1 0
+1x1x5" 145.75 12.25 33.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 177.25 16.25 35.4 3 0 7  0 0 0 1 0
+1x6x5" 147.5 16.25 33.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 133.25 16.25 32.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -2741,452 +2730,463 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 145.25 14 33.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 147.5 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 145.75 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 145.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 145.25 15.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 145.75 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 149.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 149.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 801.75 15.75 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 149.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 149.25 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 181.75 16.25 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 181.75 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 177.25 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 145.25 16.25 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 401.25 15.75 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 147.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5 Wedge" 145.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 149.75 16.25 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 241.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 165.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 149.75 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 165.25 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 161.25 15.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 145.25 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 849.25 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 849.75 15.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 849.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 853.25 15.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 161.75 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 161.25 12.25 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 853.25 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 165.25 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 163.5 16.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 849.75 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 789.5 14 33.3 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 165.25 15.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 853.25 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 161.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 161.75 15.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 853.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 849.25 15.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 853.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 849.25 12.25 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 849.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 853.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 853.75 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 401.5 14 33.3 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 161.25 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 49.25 16.25 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 243.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5 Wedge" 165.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 161.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 165.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 53.75 16.25 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 53.75 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 851.5 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 851.5 16.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 49.25 11.75 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 913.25 16.25 35.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 163.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
-1x6x5" 163.5 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 181.25 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 177.25 15.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 177.75 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 181.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 181.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 181.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 181.75 14 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 181.25 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 577.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 593.25 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 177.25 14 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 179.5 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 597.75 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 17.25 16.25 33.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 179.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5 Wedge" 177.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 177.75 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 177.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 181.25 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 177.25 12.25 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 179.5 11.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 257.75 12.25 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 21.75 16.25 33.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 197.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 197.25 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 193.25 15.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 193.75 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 193.25 12.25 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 197.25 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 195.5 16.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 259.5 16 33.3 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 259.5 12 33.3 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 197.25 15.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 193.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 193.75 15.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 193.25 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 257.75 16.25 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 21.75 11.75 33.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 197.75 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 693.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 197.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 193.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 257.75 15.75 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 197.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 17.25 11.75 33.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 597.75 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 593.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 195.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
-1x6x5" 195.5 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 657.25 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 211.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 661.75 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 865.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 869.75 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 869.75 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 213.25 16.25 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 213.75 15.75 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 213.25 15.75 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 257.25 15.75 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 209.75 11.75 32.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 209.25 12.25 32.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 209.75 12.25 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 213.75 12.25 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 213.25 11.75 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 211.5 12 33.3 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 213.5 14 33.3 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 213.25 12.25 32.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 209.25 15.75 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 209.75 16.25 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 211.5 16 33.3 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 209.5 14 33.3 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 209.75 15.75 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 261.75 12.25 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 227.5 11.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 229.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 865.25 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 225.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 225.75 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 229.75 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 229.25 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 225.25 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 225.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 661.75 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 227.5 14 40.4 2 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 229.25 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 227.5 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 657.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 225.25 12.25 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 705.25 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 225.75 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 229.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 261.5 14 33.3 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 851.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 229.25 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 229.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 401.75 16.25 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 803.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1x8" 709.75 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 833.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 837.75 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 837.75 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 689.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 689.75 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 833.25 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 693.75 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 693.25 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 689.25 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 689.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 801.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 691.5 14 40.4 2 0 5 Letters/-space 0 0 0 0 0
-1x1x5" 693.25 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 691.5 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 805.25 16.25 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 805.75 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 689.25 12.25 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 805.75 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 261.25 12.25 32.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 85.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 225.25 15.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 689.75 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 693.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 805.75 15.75 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 801.25 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 693.25 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 805.25 15.75 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 693.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 689.25 15.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 403.5 16 33.3 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube Steep" 707.5 14 40.4 3 0 5 Letters/-space 0 0 0 0 0
-1x1 Wedge" 261.25 11.75 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 245.25 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 709.75 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 705.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 245.25 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 241.25 12.25 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 243.5 11.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 245.75 14 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 241.25 14 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 243.5 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 241.75 12.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 241.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 241.25 15.75 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 801.75 11.75 32.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 801.25 12.25 32.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 241.75 16.25 33.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 801.75 12.25 32.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 245.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 245.75 15.75 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 805.75 12.25 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 245.75 12.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 245.25 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 785.25 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 81.25 12.25 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 789.75 11.75 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 81.75 11.75 33.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 85.25 16.25 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 785.25 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 789.75 16.25 34.8 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 709.25 16.25 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 709.75 15.75 32.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 709.25 15.75 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 85.75 14 33.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 83.5 11.75 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 83.5 16.25 33.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 805.25 11.75 32.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 705.75 11.75 32.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 705.25 12.25 32.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube Steep" 755.5 14 40.4 1 0 5 Letters/-space 0 0 0 0 0
+2x6" 611.5 11.5 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 645.25 15.75 48.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.25 11.75 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 609.75 11.75 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 613.25 16.25 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 613.25 11.75 46.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 608.75 12.25 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 608.75 15.75 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.25 15.25 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 613.25 16.25 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 613.5 15.75 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 613.75 12.25 38.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 613.25 12 38.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 609.75 16.25 46.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.75 15.25 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.75 16.25 45.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 613.75 12.25 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.75 11.25 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 610.25 15.75 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 609.5 12.25 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 609.25 12.25 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 610.25 12.25 45.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 609.75 16 45.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 613.75 15.75 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.75 11.75 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.75 16.75 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.25 16.25 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 609.25 15.75 46.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 613.75 12.25 46.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 614.25 15.75 45.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 614.25 12.25 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 609.75 11.75 36.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.25 16.75 45.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+16x32 Base" 615.5 14 48.5 1 0 2  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 608.75 12.25 38.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.75 12.75 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 608.75 15.75 38.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.75 15.25 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 610.25 12.25 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 610.25 15.75 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.75 16.75 38.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.25 11.75 38.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.25 16.25 38.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.25 16.75 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 614.25 15.75 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 612.75 15.75 38.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.25 15.25 38.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 609 14 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 614.25 12.25 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.25 12.75 38.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 612.75 12.25 38.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.75 11.75 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 609.25 14 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 611.5 16.5 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.75 16.25 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.75 11.25 38.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 609.75 11.75 38.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 609.5 12.25 38.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.25 11.25 38.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.25 11.25 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 613.25 12.75 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 612.75 15.75 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 609.75 12.75 45.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 612.75 12.25 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 709.75 16.25 37.5 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+16x32 Base" 871.5 14 48.5 3 0 2  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 755.5 11.75 43.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 853.75 12.25 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 609.25 15.75 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 609.75 16 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 755.5 16.25 43.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 755.5 11.5 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 609 14 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 611.5 12.25 38.3 1 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 757.25 12.25 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 849.25 15.75 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 849.75 11.75 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 853.25 16.25 45.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 865.25 15.75 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 869.75 12.25 46.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 865.75 16.25 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 865.25 12.25 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 609.75 11.75 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 864.75 15.75 37.5 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 866.25 12.25 37.5 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 866.25 15.75 37.5 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 865.75 16.75 37.5 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 869.25 16.75 37.5 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 869.25 15.25 37.5 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 869.25 12.75 37.5 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 865.25 11.75 37.5 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 865.75 16.25 35.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 629.75 12.25 35.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 629.25 12 35.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 625.25 15.75 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 625.75 16 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 625.5 12.25 35.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 609.25 15.75 45.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 627.5 16.5 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 708.75 12.25 37.5 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 629.5 15.75 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 625 14 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.75 16.25 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 630 14 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+6x8F" 611.5 14 38.3 3 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 613.5 15.75 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 613.25 12 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 629.25 16.25 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 625.75 11.75 35.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 611.5 16.5 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.25 16.25 35.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 611.5 11.5 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 613.25 16.25 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 613.25 14 45.5 2 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+6x8F" 611.5 14 45.5 0 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.25 11.75 35.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.75 11.75 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 629.25 15.75 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 625.75 15.75 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 625.75 12.25 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 627.5 16.25 46.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 627.5 11.75 46.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 629.75 14 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 625.25 14 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 643.5 15.75 35.3 3 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 627.5 15.75 35.3 3 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+6x8F" 627.5 14 35.3 3 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 627.5 12.25 35.3 1 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 705.75 11.75 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 709.75 11.75 37.5 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 643.5 12.25 35.3 1 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 625.25 14 43.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 625.75 14 42.5 2 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 645.25 15.75 47.5 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 641.75 15.75 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 613.75 14 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 627.5 11.75 43.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 627.5 16.25 43.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 627.5 11.5 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 629.25 12.25 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 629.25 14 42.5 2 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 629.75 14 43.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 613.25 15.75 46.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 625.75 11.75 42.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6x3" 641.5 14 47.5 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6x3" 643.5 16 47.5 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 613.25 12.25 46.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 630 14 42.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 611.5 16.25 46.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 625.75 12.25 43.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 625.75 15.75 43.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 625 14 42.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+6x8F" 627.5 14 42.5 0 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 627.5 11.5 42.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 629.5 15.75 42.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 629.25 15.75 43.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 625.75 16 42.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 611.5 11.75 46.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 611.5 15.75 38.3 3 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 641.75 12.25 48.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 609.75 15.75 46.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 645.25 12.25 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 629.25 12 42.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 645.25 12.25 48.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 629.75 12.25 42.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 625.25 15.75 42.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 629.25 16.25 42.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6x3" 645.5 14 47.5 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 609.75 12.25 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 629.25 12.25 43.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x2" 625.5 12.25 42.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 627.5 16.5 42.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 630.25 12.25 42.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 641.75 15.75 48.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.25 16.75 42.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6F" 609.75 14 45.5 2 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 629.25 11.75 46.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 629.75 12.25 46.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 629.75 15.75 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 629.25 16.25 46.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 625.75 16.25 46.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 625.25 15.75 46.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 614 14 45.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 625.75 11.75 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 625.25 12.25 46.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+16x32 Base" 631.5 14 48.5 3 0 2  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.75 11.25 35.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.25 11.25 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.75 16.75 35.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 624.75 12.25 35.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.75 12.75 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+6x8F" 643.5 14 35.3 3 0 6  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x6x5" 643.5 11.75 45.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 624.75 15.75 35.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.75 15.25 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 626.25 12.25 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 626.25 15.75 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.25 16.75 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 630.25 15.75 35.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 628.75 15.75 35.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.25 15.25 35.7 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 630.25 15.75 42.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 630.25 12.25 35.7 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.25 12.75 35.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 628.75 12.25 35.7 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.25 11.25 42.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 628.75 15.75 42.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 626.25 15.75 42.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.25 16.25 42.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.75 11.75 42.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 629.75 12.25 43.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5" 641.75 15.75 45.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.25 15.25 42.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1" 641.75 12.25 47.5 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 625.75 16.25 43.9 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 629.75 16.25 42.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 613.25 11.75 36.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 613.75 12.25 36.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 629.75 15.75 43.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 626.25 12.25 42.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 625.75 11.75 43.9 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 624.75 12.25 42.1 2 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.75 16.75 42.1 3 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 629.25 16.25 43.9 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.75 12.75 42.1 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1 Wedge" 625.75 15.25 42.1 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+1x1x5 Wedge" 629.25 11.75 43.9 1 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+2x6" 614 14 38.7 0 0 7  0 0 1 1 1
++-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 721.25 15.75 38.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 917.75 16.25 45.1 0 0 7  0 0 1 1 1
@@ -3221,12 +3221,14 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 721.75 11.75 46.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 785.25 11.75 46 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 613.75 15.75 36.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 721.25 11.75 45.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+Flappy Bird Spawn" -31.5 14 40.5 1 0 2  0 0 0 0 0
 1x2" 725.25 12 38.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+Flappy Bird Spawn" -27.5 14 40.5 1 0 2  0 0 0 0 0
 1x2" 725.5 15.75 38.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 16x Cube " -12.5 14 44.4 3 0 5 Letters/-space 0 0 0 0 0
@@ -3236,18 +3238,24 @@ Linecount 9326
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 261.25 12.25 48.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+Flappy Bird Spawn" -23.5 14 40.5 1 0 2  0 0 0 0 0
 16x Cube " -4.5 14 44.4 3 0 5 Letters/-space 0 0 0 0 0
+Flappy Bird Spawn" -3.5 14 40.5 1 0 2  0 0 0 0 0
+Flappy Bird Spawn" -7.5 14 40.5 1 0 2  0 0 0 0 0
 1x1x5 Wedge" 721.25 15.75 36.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+Flappy Bird Spawn" -11.5 14 40.5 1 0 2  0 0 0 0 0
+Flappy Bird Spawn" -15.5 14 40.5 1 0 2  0 0 0 0 0
 1x1 Wedge" 918.25 15.75 45.1 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
+16x Cube " -36.5 14 44.4 2 0 5 Letters/-space 0 0 0 1 0
 1x1 Wedge" 710.25 15.75 45.1 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 705.75 12.75 45.1 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 723.5 11.75 46.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
+Flappy Bird Spawn" -19.5 14 40.5 1 0 2  0 0 0 0 0
 1x1 Wedge" 917.25 15.25 45.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 2x6" 721 14 45.1 2 0 7  0 0 1 1 1
@@ -3260,7 +3268,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 2x6" 721 14 38.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 785.25 16.25 46 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 613.25 16.25 36.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5" 725.25 12.25 46.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3294,7 +3302,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x2" 913.5 12.25 45.1 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 773.75 11.75 46 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 609.75 16.25 36.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x2" 913.75 16 45.1 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3320,11 +3328,11 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 709.25 11.75 46.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 773.75 16.25 46 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 609.25 15.75 36.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 705.25 16.25 45.1 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 769.25 16.25 46 3 0 7  0 0 0 1 0
+1x1x5" 609.75 15.75 36.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 725.75 14 36.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3356,19 +3364,19 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 912.75 15.75 45.1 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 769.25 11.75 46 3 0 7  0 0 0 1 0
+1x1x5" 609.75 12.25 36.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 725.25 11.75 36.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 741.75 11.75 46 3 0 7  0 0 0 1 0
+1x6x5" 611.5 16.25 36.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 816.75 12.25 35.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 741.75 16.25 46 3 0 7  0 0 0 1 0
+1x6x5" 609.25 14 36.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 821.25 12.75 35.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 737.25 16.25 46 3 0 7  0 0 0 1 0
+1x6x5" 613.75 14 36.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 817.25 15.75 46.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3376,7 +3384,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6F" 785.75 14 43.7 2 0 6  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 737.25 11.75 46 3 0 7  0 0 0 1 0
+1x6x5" 611.5 11.75 36.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 913.25 16.25 38.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3394,9 +3402,9 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 785.75 15.75 48.1 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 789.75 16.25 46 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 609.25 12.25 36.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 789.75 11.75 46 3 0 7  0 0 0 1 0
+1x1x5" 613.25 12.25 36.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 821.25 16.75 35.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3415,7 +3423,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 6x8F" 787.5 14 37.1 3 0 6  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 849.25 11.75 46 3 0 7  0 0 0 1 0
+1x1x5" 613.25 15.75 36.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6F" 787.5 12.25 37.1 1 0 6  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3423,9 +3431,9 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 2x6" 785 14 37.5 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 849.25 16.25 46 3 0 7  0 0 0 1 0
+1x6F" 641.75 14 43.7 2 0 6  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 661.75 11.75 46 3 0 7  0 0 0 1 0
+1x1" 865.75 15.75 48.1 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 739.5 11.75 45.1 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3445,7 +3453,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 897.25 12.25 43.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 661.75 16.25 46 3 0 7  0 0 0 1 0
+1x1" 645.25 12.25 47.5 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 805.75 16.25 37.5 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3455,17 +3463,17 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 917.25 16.25 46.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 657.25 16.25 46 3 0 7  0 0 0 1 0
+1x6x5" 641.25 14 45.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x2" 789.25 12 37.5 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 6x8F" 915.5 14 38.3 3 0 6  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 657.25 11.75 46 3 0 7  0 0 0 1 0
+1x1" 869.25 15.75 48.1 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1x5 Wedge" 913.75 16.25 46.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 853.75 16.25 46 3 0 7  0 0 0 1 0
+1x1" 865.75 12.25 48.1 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 899.5 11.75 43.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3473,7 +3481,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 789.75 12.25 37.5 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 853.75 11.75 46 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 869.25 16.25 45.1 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 899.5 16.25 43.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3507,15 +3515,15 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 789.25 15.75 47.5 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 865.25 11.75 46 3 0 7  0 0 0 1 0
+1x1 Wedge" 870.25 12.25 43.3 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 865.25 16.25 46 3 0 7  0 0 0 1 0
+1x1" 833.75 15.75 33.3 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 785.25 14 45.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 788.75 15.75 37.5 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 645.75 11.75 46 3 0 7  0 0 0 1 0
+1x6x5" 833.25 14 35.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 789.25 12.25 47.5 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3525,7 +3533,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 785.75 16.75 37.5 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 645.75 16.25 46 3 0 7  0 0 0 1 0
+1x6x5" 835.5 16.25 35.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 789.25 15.75 46.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3585,13 +3593,13 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 785.75 11.25 43.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 641.25 16.25 46 3 0 7  0 0 0 1 0
+1x1" 837.25 12.25 33.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 785.75 12.75 43.3 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 786.25 15.75 43.3 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 641.25 11.75 46 3 0 7  0 0 0 1 0
+1x6x5" 837.75 14 35.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 917.25 16.75 38.7 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3601,9 +3609,9 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 913.75 16.75 38.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 597.75 11.75 46 3 0 7  0 0 0 1 0
+1x6x5" 835.5 11.75 35.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 597.75 16.25 46 3 0 7  0 0 0 1 0
+1x1 Wedge" 644.75 12.25 35.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 773.25 15.75 46.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3621,7 +3629,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 769.75 15.75 46.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 593.25 16.25 46 3 0 7  0 0 0 1 0
+1x1 Wedge" 821.25 11.25 42.1 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6F" 771.5 12.25 35.3 1 0 6  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3629,31 +3637,31 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 789.25 12.25 46.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 593.25 11.75 46 3 0 7  0 0 0 1 0
+1x1 Wedge" 640.75 15.75 35.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 869.75 16.25 46 3 0 7  0 0 0 1 0
+1x1x5" 769.75 12.25 45.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 2x6x3" 787.5 16 47.5 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 785.75 15.75 46.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 869.75 11.75 46 3 0 7  0 0 0 1 0
+1x6x5" 773.75 14 45.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x2" 789.5 15.75 37.5 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 17.25 11.75 46.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 822.25 12.25 35.7 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 789.25 15.75 48.1 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x2" 785.5 12.25 37.5 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 21.75 11.75 46.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 817.25 16.25 42.1 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 581.75 11.75 46 3 0 7  0 0 0 1 0
+1x1x5 Wedge" 817.75 16.25 46.9 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 785.75 11.75 37.5 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 581.75 16.25 46 3 0 7  0 0 0 1 0
+1x1 Wedge" 593.25 12.25 46.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x2" 817.75 16 42.1 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -3743,7 +3751,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 883.5 16.25 46.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 577.25 16.25 46 3 0 7  0 0 0 1 0
+1x1 Wedge" 593.75 11.75 46.9 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x6x5" 883.5 11.75 46.9 1 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -4863,7 +4871,7 @@ Spawn Point" -12.75 14.75 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 16.75 12.25 35.7 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-Spawn Point" -12.75 16.25 41.9 1 0 2  0 0 0 0 0
+16x Cube " -20.5 14 44.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1 Wedge" 16.75 15.75 35.7 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 17.75 16.75 45.1 3 0 7  0 0 1 1 1
@@ -5236,7 +5244,7 @@ Spawn Point" -12.75 16.25 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 33.75 11.75 33.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x Cube " -28.5 14 44.4 3 0 5 Letters/-space 0 0 0 1 0
+16x Cube " -28.5 14 44.4 3 0 5 Letters/-space 0 0 0 0 0
 1x1 Wedge" 865.75 11.75 33.3 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1" 37.25 15.75 33.3 1 0 7  0 0 1 1 1
@@ -8394,7 +8402,7 @@ Spawn Point" -12.75 16.25 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 52.75 15.75 45.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 21.75 16.25 46.9 3 0 7  0 0 0 1 0
+1x1 Wedge" 52.75 12.25 45.1 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 53.25 12.75 45.1 3 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
@@ -16549,924 +16557,11 @@ Spawn Point" -12.75 16.25 41.9 1 0 2  0 0 0 0 0
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 597.75 15.75 46.9 0 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 593.75 11.75 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 593.25 12.25 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 817.75 16.25 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 817.25 16.25 42.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 822.25 12.25 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 773.75 14 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 769.75 12.25 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 640.75 15.75 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 821.25 11.25 42.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 644.75 12.25 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 835.5 11.75 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 837.75 14 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 837.25 12.25 33.3 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 835.5 16.25 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 833.25 14 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 833.75 15.75 33.3 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 870.25 12.25 43.3 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 869.25 16.25 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 865.75 12.25 48.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 869.25 15.75 48.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 641.25 14 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 645.25 12.25 47.5 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 865.75 15.75 48.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 641.75 14 43.7 2 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 613.25 15.75 36.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 613.25 12.25 36.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 609.25 12.25 36.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 611.5 11.75 36.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 613.75 14 36.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 609.25 14 36.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 611.5 16.25 36.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 609.75 12.25 36.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 609.75 15.75 36.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 609.25 15.75 36.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 609.75 16.25 36.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 613.25 16.25 36.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 613.75 15.75 36.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 613.75 12.25 36.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 613.25 11.75 36.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 641.75 12.25 47.5 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 641.75 15.75 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 643.5 11.75 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-6x8F" 643.5 14 35.3 3 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 614 14 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 609.75 14 45.5 2 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 641.75 15.75 48.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 609.75 12.25 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 645.25 12.25 48.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 609.75 15.75 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 641.75 12.25 48.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 611.5 15.75 38.3 3 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 611.5 11.75 46.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 611.5 16.25 46.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 613.25 12.25 46.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 613.25 15.75 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 613.75 14 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-6x8F" 611.5 14 45.5 0 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 613.25 14 45.5 2 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 613.25 16.25 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 611.5 11.5 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 611.5 16.5 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 613.25 12 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 613.5 15.75 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-6x8F" 611.5 14 38.3 3 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 609.25 15.75 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 609.75 11.75 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 611.5 12.25 38.3 1 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 609 14 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 609.75 16 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 609.25 15.75 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 609.5 12.25 38.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 609.75 11.75 38.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 611.5 16.5 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 609.25 14 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 609 14 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 609.75 16 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 609.5 12.25 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 613.75 12.25 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 613.25 12 38.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 613.75 12.25 38.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 613.5 15.75 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 613.25 16.25 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 614 14 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 611.5 11.5 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 645.25 15.75 48.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.25 11.75 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 609.75 11.75 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 613.25 16.25 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 613.25 11.75 46.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 608.75 12.25 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 608.75 15.75 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.25 15.25 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 609.75 16.25 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.75 15.25 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.75 16.25 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.75 11.25 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 610.25 15.75 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 609.25 12.25 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 610.25 12.25 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 613.75 15.75 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.75 11.75 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.75 16.75 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.25 16.25 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 609.25 15.75 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 613.75 12.25 46.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 614.25 15.75 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 614.25 12.25 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 609.75 11.75 36.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.25 16.75 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x32 Base" 615.5 14 48.5 1 0 2  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 608.75 12.25 38.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.75 12.75 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 608.75 15.75 38.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.75 15.25 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 610.25 12.25 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 610.25 15.75 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.75 16.75 38.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.25 11.75 38.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.25 16.25 38.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.25 16.75 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 614.25 15.75 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 612.75 15.75 38.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.25 15.25 38.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 614.25 12.25 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.25 12.75 38.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 612.75 12.25 38.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.75 11.75 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.75 16.25 38.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.75 11.25 38.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.25 11.25 38.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.25 11.25 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 613.25 12.75 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 612.75 15.75 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 609.75 12.75 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 612.75 12.25 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 709.75 16.25 37.5 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x32 Base" 871.5 14 48.5 3 0 2  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 755.5 11.75 43.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 853.75 12.25 45.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 755.5 16.25 43.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 755.5 11.5 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 757.25 12.25 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 849.25 15.75 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 849.75 11.75 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 853.25 16.25 45.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 865.25 15.75 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 869.75 12.25 46.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 865.75 16.25 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 865.25 12.25 45.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 864.75 15.75 37.5 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 866.25 12.25 37.5 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 866.25 15.75 37.5 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 865.75 16.75 37.5 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 869.25 16.75 37.5 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 869.25 15.25 37.5 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 869.25 12.75 37.5 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 865.25 11.75 37.5 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 865.75 16.25 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 629.75 12.25 35.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 629.25 12 35.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 625.25 15.75 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 625.75 16 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 625.5 12.25 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 627.5 16.5 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 708.75 12.25 37.5 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 629.5 15.75 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 625 14 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.75 16.25 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 630 14 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 629.25 16.25 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 625.75 11.75 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.25 16.25 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.25 11.75 35.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.75 11.75 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 629.25 15.75 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 625.75 15.75 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 625.75 12.25 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 627.5 16.25 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 627.5 11.75 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 629.75 14 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 625.25 14 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 643.5 15.75 35.3 3 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 627.5 15.75 35.3 3 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-6x8F" 627.5 14 35.3 3 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 627.5 12.25 35.3 1 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 705.75 11.75 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 709.75 11.75 37.5 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 643.5 12.25 35.3 1 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 625.25 14 43.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 625.75 14 42.5 2 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 645.25 15.75 47.5 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 641.75 15.75 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 627.5 11.75 43.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 627.5 16.25 43.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 627.5 11.5 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 629.25 12.25 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6F" 629.25 14 42.5 2 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x6x5" 629.75 14 43.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 625.75 11.75 42.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 641.5 14 47.5 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 643.5 16 47.5 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 630 14 42.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 625.75 12.25 43.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 625.75 15.75 43.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 625 14 42.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-6x8F" 627.5 14 42.5 0 0 6  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 627.5 11.5 42.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 629.5 15.75 42.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 629.25 15.75 43.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 625.75 16 42.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 645.25 12.25 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 629.25 12 42.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 629.75 12.25 42.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 625.25 15.75 42.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1" 629.25 16.25 42.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6x3" 645.5 14 47.5 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 629.25 12.25 43.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x2" 625.5 12.25 42.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-2x6" 627.5 16.5 42.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 630.25 12.25 42.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.25 16.75 42.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 629.25 11.75 46.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 629.75 12.25 46.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 629.75 15.75 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 629.25 16.25 46.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 625.75 16.25 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 625.25 15.75 46.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 625.75 11.75 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 625.25 12.25 46.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-16x32 Base" 631.5 14 48.5 3 0 2  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.75 11.25 35.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.25 11.25 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.75 16.75 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 624.75 12.25 35.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.75 12.75 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 624.75 15.75 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.75 15.25 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 626.25 12.25 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 626.25 15.75 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.25 16.75 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 630.25 15.75 35.7 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 628.75 15.75 35.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.25 15.25 35.7 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 630.25 15.75 42.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 630.25 12.25 35.7 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.25 12.75 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 628.75 12.25 35.7 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.25 11.25 42.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 628.75 15.75 42.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 626.25 15.75 42.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.25 16.25 42.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.75 11.75 42.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 629.75 12.25 43.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.25 15.25 42.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 625.75 16.25 43.9 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 629.75 16.25 42.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 629.75 15.75 43.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 626.25 12.25 42.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 625.75 11.75 43.9 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 624.75 12.25 42.1 2 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.75 16.75 42.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 629.25 16.25 43.9 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.75 12.75 42.1 0 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 625.75 15.25 42.1 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5 Wedge" 629.25 11.75 43.9 1 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
 1x1 Wedge" 625.75 11.25 42.1 2 0 7  0 0 1 1 1
 +-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 17.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 33.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 37.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 37.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 33.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 85.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 81.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 81.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 85.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 49.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 53.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 53.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 49.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 165.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 161.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 161.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 165.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 65.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 69.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 69.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 65.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 197.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 193.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 193.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 197.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 97.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 101.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 101.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 97.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 145.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 149.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 149.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 145.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 177.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 181.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 181.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 177.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 357.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 353.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 353.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 357.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 209.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 213.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 213.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 209.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 225.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 229.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 229.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 225.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 469.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 465.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 465.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 469.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 241.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 245.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 245.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 241.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 565.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 561.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 561.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 565.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 273.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 277.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 277.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 273.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 629.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 625.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 625.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 629.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 677.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 673.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 673.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 677.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 289.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 293.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 293.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 289.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 757.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 753.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 753.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 757.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 821.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 817.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 817.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 821.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 321.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 325.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 325.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 321.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 901.75 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 897.25 11.75 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 897.25 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x10" 901.75 16.25 45.4 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 337.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 341.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 341.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 913.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 337.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 385.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 389.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 389.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 385.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 401.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 405.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 405.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 401.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 417.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 421.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 421.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 113.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 113.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 117.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 117.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 417.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 449.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 453.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 453.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 129.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 129.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 133.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 133.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 449.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 497.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 501.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 501.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 497.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 609.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 613.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 613.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 257.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 257.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 261.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 261.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 609.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 689.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 693.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 693.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 689.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 705.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 709.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 709.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 305.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 305.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 309.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 309.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 369.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 369.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 373.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 373.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 705.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 721.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 725.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 725.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 721.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 801.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 805.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 805.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 433.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 433.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 437.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 437.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 481.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 481.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 485.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 485.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 801.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 833.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 837.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 837.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 513.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 513.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 517.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 517.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 529.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 529.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 533.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 533.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 833.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 881.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 885.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 885.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 545.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 545.25 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 549.75 16.25 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 549.75 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 881.25 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 913.25 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 917.75 11.75 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1 Wedge" 52.75 12.25 45.1 3 0 7  0 0 1 1 1
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x8" 577.25 11.75 46 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-1x1x5" 917.75 16.25 46.9 3 0 7  0 0 0 1 0
-+-EVENT	0	1	onPlayerTouch	0	Player		Kill				
-Spawn Point" -12.75 13.25 41.9 1 0 2  0 0 0 0 0
-Spawn Point" -12.75 11.75 41.9 1 0 2  0 0 0 0 0
-16x Cube Steep" 539.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" 587.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 251.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" 859.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 923.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 435.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 507.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
@@ -17526,7 +16621,7 @@ Spawn Point" -12.75 11.75 41.9 1 0 2  0 0 0 0 0
 16x Cube Steep" 579.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 515.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 227.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
-16x Cube Steep" 859.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" 539.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 331.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 99.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 59.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
@@ -17584,9 +16679,9 @@ Spawn Point" -12.75 11.75 41.9 1 0 2  0 0 0 0 0
 16x Cube Steep" 811.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 555.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 547.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
-16x Cube Steep" 587.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
-16x Cube Steep" 811.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" 27.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 211.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" 835.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 907.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 779.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 475.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
@@ -17596,10 +16691,10 @@ Spawn Point" -12.75 11.75 41.9 1 0 2  0 0 0 0 0
 16x Cube Steep" 99.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 803.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" -12.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
-16x Cube Steep" 403.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
-16x Cube Steep" 27.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" 787.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" 811.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 923.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
-16x Cube Steep" 835.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" 691.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 819.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 435.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 195.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
@@ -17707,9 +16802,9 @@ Spawn Point" -12.75 11.75 41.9 1 0 2  0 0 0 0 0
 16x Cube Steep" -60.5 14 56.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 795.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" 499.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
-16x Cube Steep" 787.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
-16x Cube Steep" 691.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
-16x32 Base" 47.5 14 80.7 3 0 4  0 0 1 1 1
+16x Cube Steep" 403.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
+16x Cube Steep" -52.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
+16x32 Base" 159.5 14 80.7 3 0 4  0 0 1 1 1
 16x32 Base" 911.5 14 80.7 3 0 4  0 0 1 1 1
 16x32 Base" 863.5 14 80.7 3 0 4  0 0 1 1 1
 16x Cube Steep" -44.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
@@ -17728,5 +16823,4 @@ Spawn Point" -12.75 11.75 41.9 1 0 2  0 0 0 0 0
 16x32 Base" 127.5 14 80.7 3 0 4  0 0 1 1 1
 16x Cube Steep" -4.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
 16x Cube Steep" -12.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
-16x32 Base" 159.5 14 80.7 3 0 4  0 0 1 1 1
-16x Cube Steep" -52.5 14 72.6 1 0 4 Letters/-space 0 0 1 1 1
+16x32 Base" 47.5 14 80.7 3 0 4  0 0 1 1 1
