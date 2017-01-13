@@ -1,4 +1,5 @@
 exec("./attributes.cs");
+exec("./bricks/modter.cs");
 
 if(isFile("Add-Ons/System_ReturnToBlockland/server.cs"))
 {
@@ -668,7 +669,7 @@ package GameMode_Flappy_Bird
 		for(%i = 10; %i >= 1; %i--)
 			messageClient(%client,'',"\c5#:\c6 " @ %i @ " \c7|\c5 Distance:\c6 " @ $FlappyHighScore[%i] @ " \c7|\c5 ID:\c6 " @ $FlappyHighScoreID[%i] @ " \c7|\c5 Name:\c6 " @ $FlappyHighScoreName[%i]);
 
-		messageClient(%client,'FlappyHighScoreEnd',"Press PageUp to see more. Tip: You can also see high scores in the player list!");
+		messageClient(%client,'FlappyHighScoreEnd',"\c5Press PageUp to see more. Tip: You can also see high scores in the player list!");
 	}
 
 	function leaderboard() //Copied from above

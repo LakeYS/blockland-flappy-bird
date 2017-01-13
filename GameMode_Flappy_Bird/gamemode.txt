@@ -1,6 +1,5 @@
 //add-ons to load
 ADDON Brick_Large_Cubes
-ADDON Brick_ModTer_BasicPack
 
 ADDON Emote_Alarm
 ADDON Emote_Confusion
