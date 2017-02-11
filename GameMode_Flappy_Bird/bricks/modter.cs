@@ -15,14 +15,14 @@ datablock fxDTSBrickData(brick16Cube5Data)
 	isWaterBrick = true;
 };
 
-datablock fxDTSBrickData(brick32Cube5Data)
+datablock fxDTSBrickData(brick64Cube1Data)
 {
-	brickFile = "Add-Ons/Brick_ModTer_BasicPack/Bricks/Steep/32cSteep.blb";
+	brickFile = "Add-Ons/Brick_ModTer_BasicPack/Bricks/Full/64c.blb";
 	category = "Baseplates";
-	subCategory = "ModTer 32x";
-	uiName = "32x Cube Steep";
-	iconName = "Add-Ons/Brick_ModTer_BasicPack/BrickIcons/Steep/32cSteep";
-	CollisionShapeName = "Add-Ons/Brick_ModTer_BasicPack/Shapes/Steep/32cSteepCol.dts";
+	subCategory = "ModTer 64x";
+	uiName = "64x Cube ";
+        iconName = "Add-ons/Brick_ModTer_BasicPack/BrickIcons/Full/64c";
+	collisionShapeName = "Add-Ons/Brick_ModTer_BasicPack/Shapes/Full/64cCol.dts";
         hasPrint = 1;
 	printAspectRatio = "ModTer";
 	isWaterBrick = true;
