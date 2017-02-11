@@ -736,10 +736,10 @@ package GameMode_Flappy_Bird
 			%playerWordC = "They have";
 		}
 
-		%bronzeWord = ($FlappyHighScoreBronzeCount[%id])?"medal":"medals";
-		%silverWord = ($FlappyHighScoreSilverCount[%id])?"medal":"medals";
-		%goldWord =	($FlappyHighScoreGoldCount[%id])?"medal":"medals";
-		%platinumWord  = ($FlappyHighScorePlatinumCount[%id])?"medal":"medals";
+		%bronzeWord = ($FlappyHighScoreBronzeCount[%id]==1)?"medal":"medals";
+		%silverWord = ($FlappyHighScoreSilverCount[%id]==1)?"medal":"medals";
+		%goldWord =	($FlappyHighScoreGoldCount[%id]==1)?"medal":"medals";
+		%platinumWord  = ($FlappyHighScorePlatinumCount[%id]==1)?"medal":"medals";
 
 		//scores from older versions won't have certain values so we need to fill them
 		if($FlappyHighScoreBronzeCount[%id])
