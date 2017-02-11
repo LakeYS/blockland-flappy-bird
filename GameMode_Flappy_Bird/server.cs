@@ -326,7 +326,7 @@ function FlappyBirdDeath(%client)
 
 				if(%emptyslot == %newpos)
 				{
-					if(%newpos <= 10) //leaderboard scores above 10 are recorded but hidden (for now)
+					if(%newpos <= 20)
 						messageClient(%client,'',"Congratulations, your score is \c6#" @ %newpos @ "\c0 on the leaderboard! Type /leaderboard to view it.");
 
 					$FlappyHighScore[%newpos] = %score;
@@ -355,7 +355,7 @@ function FlappyBirdDeath(%client)
 					{
 						//echo("filling score #" @ %newpos @ " with the new values (" @ %client.name @ ", " @ %client.bl_id @ ", " @ %score @ ")");
 
-						if(%newpos <= 10) //leaderboard scores above 10 are recorded but hidden (for now)
+						if(%newpos <= 20)
 							messageClient(%client,'',"Congratulations! Your score is \c6#" @ %newpos @ "\c0 on the leaderboard!");
 
 						$FlappyHighScore[%newpos] = %score;
@@ -666,7 +666,7 @@ package GameMode_Flappy_Bird
 
 	function serverCmdLeaderboard(%client)
 	{
-		for(%i = 10; %i >= 1; %i--)
+		for(%i = 20; %i >= 1; %i--)
 			messageClient(%client,'',"\c5#:\c6 " @ %i @ " \c7|\c5 Distance:\c6 " @ $FlappyHighScore[%i] @ " \c7|\c5 ID:\c6 " @ $FlappyHighScoreID[%i] @ " \c7|\c5 Name:\c6 " @ $FlappyHighScoreName[%i]);
 
 		messageClient(%client,'FlappyHighScoreEnd',"\c5Press PageUp to see more. Tip: You can also see high scores in the player list!");
@@ -696,7 +696,7 @@ package GameMode_Flappy_Bird
 				%id = findClientByName(%target).bl_id;
 			else // Something else...
 			{
-				for(%i = 1; %i <= 10; %i++)
+				for(%i = 1; %i <= 20; %i++)
 				{
 					if(strstr(strupr($FlappyHighScoreName[%i]),strupr(%target)) >= 0) // They specified a name from the leaderboard
 					{
@@ -817,7 +817,7 @@ package GameMode_Flappy_Bird
 				%id = findClientByName(%target).bl_id;
 			else // Something else...
 			{
-				for(%i = 1; %i <= 10; %i++)
+				for(%i = 1; %i <= 20; %i++)
 				{
 					if(strstr(strupr($FlappyHighScoreName[%i]),strupr(%target)) >= 0) // They specified a name from the leaderboard
 					{

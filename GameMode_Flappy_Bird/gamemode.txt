@@ -13,7 +13,6 @@ ADDON GameMode_Flappy_Bird
 ADDON Player_No_Jet
 
 ADDON Print_Letters_Default
-ADDON Print_ModTer_Default
 
 ADDON Weapon_Gun
 
